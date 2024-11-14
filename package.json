@@ -1,0 +1,17 @@
+{
+  "name": "teste_executavel_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "pkg src/index.js --target node18-linux-x64,node18-win-x64 --output dist/conversor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-async": "^0.9.9",
+    "prompt-sync": "^4.2.0"
+  }
+}
